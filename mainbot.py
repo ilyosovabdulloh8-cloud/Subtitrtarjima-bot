@@ -12,7 +12,8 @@ from classes import *
 import uuid
 
 
-token = "7728998856:AAEWxlEuiftQaIqKrQgzMg4O8gt4xn3hJQ0"
+import os
+TOKEN = os.getenv("BOT_TOKEN")
 video=videos_ochish()
 videos_uuid=uuid_ochish()
 Videolar1={}
