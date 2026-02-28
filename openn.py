@@ -5,7 +5,7 @@ from aiogram import Bot, Dispatcher
 
 def token():
     with open("token.txt","r") as f:
-        return f.read()
+        return f.read().strip()
 def token_edit(token):
     with open("token.txt","w") as f:
         f.write(token)
