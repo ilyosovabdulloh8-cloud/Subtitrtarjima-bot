@@ -12,9 +12,7 @@ from classes import *
 import uuid
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")
-if not BOT_TOKEN:
-    raise RuntimeError("BOT_TOKEN Railway Variables da yoâ€˜q!")
+TOKEN = "7728998856:AAEQJE3qdia9-Tjb06iOBIIsxsJu2zcV480"
 video=videos_ochish()
 videos_uuid=uuid_ochish()
 Videolar1={}
