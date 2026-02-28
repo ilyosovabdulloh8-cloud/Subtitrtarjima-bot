@@ -1,5 +1,4 @@
 from openn import *
-from aiogram import Bot, Dispatcher, types
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from openn import *
 bot = Bot(token=token())
