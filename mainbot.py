@@ -10,13 +10,13 @@ from aiogram.fsm.context import FSMContext
 from keyboards import *
 from classes import *
 import uuid
-import os
 
-TOKEN = "7728998856:AAEWxlEuiftQaIqKrQgzMg4O8gt4xn3hJQ0"
+
+token = "7728998856:AAEWxlEuiftQaIqKrQgzMg4O8gt4xn3hJQ0"
 video=videos_ochish()
 videos_uuid=uuid_ochish()
 Videolar1={}
-bot = Bot(token=TOKEN)
+bot = Bot(token)
 dp = Dispatcher()
 kontent_ochirish = Kontent_ochirish()
 yangi_kontent = Yangi_kontent()
