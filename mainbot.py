@@ -10,7 +10,9 @@ from aiogram.fsm.context import FSMContext
 from keyboards import *
 from classes import *
 import uuid
-TOKEN = token()
+import os
+
+TOKEN = os.getenv("BOT_TOKEN")
 video=videos_ochish()
 videos_uuid=uuid_ochish()
 Videolar1={}
