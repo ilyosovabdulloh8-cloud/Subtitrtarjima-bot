@@ -3,9 +3,7 @@ import json
 from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton
 from aiogram import Bot, Dispatcher
 
-def token():
-    with open("token.txt","r") as f:
-        return f.read()
+
 def token_edit(token):
     with open("token.txt","w") as f:
         f.write(token)
