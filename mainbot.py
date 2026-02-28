@@ -12,7 +12,7 @@ from classes import *
 import uuid
 import os
 
-TOKEN = "7728998856:AAEQJE3qdia9-Tjb06iOBIIsxsJu2zcV480"
+TOKEN = "7728998856:AAEWxlEuiftQaIqKrQgzMg4O8gt4xn3hJQ0"
 video=videos_ochish()
 videos_uuid=uuid_ochish()
 Videolar1={}
